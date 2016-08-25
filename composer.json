@@ -1,0 +1,26 @@
+{
+    "name": "sagittariusx/beluga.drawing.image.exif",
+    "description": "Some tools for easy getting image EXIF and IPTC meta data",
+    "authors": [
+        {
+            "name": "SagittariusX",
+            "email": "unikado+sag@gmail.com"
+        }
+    ],
+    "license": "LGPLv3",
+    "require": {
+        "php": ">=7.0",
+        "sagittariusx/beluga.core": "^0.1.0",
+        "sagittariusx/beluga.drawing": "^0.1.0",
+        "sagittariusx/beluga.gis": "^0.1.0",
+        "sagittariusx/beluga.web": "^0.1.0",
+        "sagittariusx/beluga.date": "^0.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "Beluga\\Drawing\\Image\\Exif\\": "src/"
+        }
+    }
+}
